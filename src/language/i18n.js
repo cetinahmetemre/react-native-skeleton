@@ -4,7 +4,6 @@ import tr from "./locales/tr";
 import AsyncStorage from "@react-native-community/async-storage";
 
 I18n.fallbacks = true;
-
 I18n.translations = {
     tr,
     en,

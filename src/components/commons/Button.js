@@ -1,5 +1,5 @@
 import React from "react";
-import {colors} from "../../utils/colors";
+import {Colors} from "../../utils/Colors";
 import {TouchableOpacity, Text} from "react-native";
 import PropTypes from "prop-types";
 
@@ -11,7 +11,7 @@ const Button = ({text="", onPress = () => {}, buttonStyle = {}, textStyle={}, te
             flexDirection:"row",
             alignItems:"center",
             justifyContent:"center",
-            backgroundColor:colors.orange,
+            backgroundColor:Colors.orange,
             borderRadius: 5,
             borderColor:"black",
             borderWidth:0,

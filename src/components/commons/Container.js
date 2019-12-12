@@ -1,6 +1,6 @@
 import React from "react";
 import {View} from "react-native";
-import {colors} from "../../utils/colors";
+import {Colors} from "../../utils/Colors";
 import PropTypes from "prop-types";
 
 
@@ -11,7 +11,7 @@ const Container = ({children, horizontal, style, onLayout}) => {
             flexDirection: horizontal ? "row" : "column",
             alignItems: "center",
             justifyContent: "center",
-            backgroundColor: colors.background,
+            backgroundColor: Colors.background,
             ...style
         },
     };

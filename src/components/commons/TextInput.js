@@ -1,7 +1,7 @@
 import React from "react";
 import {TextField} from "react-native-material-textfield";
 import PropTypes from "prop-types";
-import {colors} from "../../utils/colors";
+import {Colors} from "../../utils/Colors";
 
 const TextInput = ({
     label,
@@ -9,7 +9,7 @@ const TextInput = ({
     value = "",
     onChangeText = () => {},
     lineWidth = 0.5,
-    tintColor = colors.orange,
+    tintColor = Colors.orange,
     baseColor = "black",
     textColor = "black",
     error,
