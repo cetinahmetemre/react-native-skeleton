@@ -1,0 +1,10 @@
+-react-navigation
+-react-native-reanimated 
+-react-native-gesture-handler 
+-react-native-screens@^1.0.0-alpha.23
+-react-navigation-stack
+-react-native-material-textfield
+-npm install --save-dev eslint eslint-plugin-import eslint-loader eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks babel-eslint
+-axios
+-react-native-i18n
+-@react-native-community/async-storage
