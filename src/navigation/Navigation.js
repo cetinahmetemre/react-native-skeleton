@@ -8,8 +8,8 @@ const RootStack = createStackNavigator(
         DefaultScreen: {
             screen: DefaultScreen,
             /* navigationOptions: ({}) => ({
-        header: null,
-      }), */
+                header: null,
+            }), */
         },
     },
     {initialRouteName: "DefaultScreen"},

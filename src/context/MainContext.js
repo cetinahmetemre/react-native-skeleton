@@ -5,8 +5,6 @@ import {MainReducer} from "./MainReducer";
 
 export const MainContext = createContext();
 
-/* eslint-disable no-shadow */
-/* eslint-disable react-hooks/exhaustive-deps */
 const MainContextProvider = (props) => {
 
     const [datas, dispatch] = useReducer(MainReducer, {});
@@ -15,7 +13,7 @@ const MainContextProvider = (props) => {
         dispatch(
             {
                 type: "SET_ALL_OF_THEM",
-                data:{
+                payload:{
                     focusedObject: {}, 
                     selectedObject: "object", 
                     isAllCategory: "isAllCategory"
@@ -28,7 +26,7 @@ const MainContextProvider = (props) => {
         <MainContext.Provider
             value={{
                 datas, 
-                dispatch,  
+                dispatch,
             }}>
             {props.children}
         </MainContext.Provider>

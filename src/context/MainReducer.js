@@ -3,12 +3,12 @@ export const MainReducer = (state, action) => {
         case "SET_MAP":
             return {
                 ...state,
-                map: action.map,
+                map: action.payload,
             };
         case "SET_SELECTED_OBJECT":
             return {
                 ...state,
-                selectedObject: action.selectedObject,
+                selectedObject: action.payload,
             };
         case "SET_ALL_OF_THEM":
             return {
